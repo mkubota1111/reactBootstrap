@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 
 import AppMenu from './AppMenu.jsx';
 import AppDivider from './AppDivider.jsx';
+import MyTextarea from './MyTextarea.jsx';
 
 ReactDOM.render(
   <div>
@@ -10,7 +11,7 @@ ReactDOM.render(
     <div className="container">
       <div className="row">
         <div className="col-sm-9 profile-desc"></div>
-        <AppDivider>This is a component</AppDivider>
+        <MyTextarea />
       </div>
     </div>
   </div>,
