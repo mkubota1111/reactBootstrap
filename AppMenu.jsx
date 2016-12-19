@@ -1,7 +1,7 @@
 import React from 'react';
 import { Nav, Navbar, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 
-class AppMenu extends React.Component {
+export default class AppMenu extends React.Component {
   render() {
     return (
       <Navbar>
@@ -26,5 +26,3 @@ class AppMenu extends React.Component {
     );
   }
 }
-
-export default AppMenu;

@@ -2,18 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import AppMenu from './AppMenu.jsx';
-import AppDivider from './AppDivider.jsx';
-import MyTextarea from './MyTextarea.jsx';
+import AddTicketForm from './AddTicketForm.jsx';
 
 ReactDOM.render(
   <div>
     <AppMenu />
     <div className="container">
       <div className="row">
-        <div className="col-sm-9 profile-desc"></div>
-        <MyTextarea />
+        <div className="col-sm-6">
+          <h2>Add Ticket</h2>
+          <hr />
+        </div>
       </div>
     </div>
+    <AddTicketForm />
   </div>,
   document.getElementById('app')
 );
